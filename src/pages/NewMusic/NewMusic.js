@@ -141,6 +141,7 @@ function NewMusic() {
                             serial={true}
                             data={song}
                             index={index}
+                            key={index}
                             onClick={() => handlePlaySong(song, data.items, data.sectionId)}
                         />
                     ))}

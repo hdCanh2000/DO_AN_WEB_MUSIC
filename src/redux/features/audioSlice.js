@@ -1,5 +1,5 @@
 import { createSlice } from '@reduxjs/toolkit';
-import logozing from '~/assets/img/logozing.png';
+import logo from '~/assets/img/logozing.png';
 
 const initialState = {
     isPlay: false,
@@ -10,8 +10,8 @@ const initialState = {
     currentIndexSong: 0,
     currentIndexSongRandom: 0,
     infoSongPlayer: JSON.parse(localStorage.getItem('songInfo')) || {
-        thumbnail: logozing,
-        thumbnailM: logozing,
+        thumbnail: logo,
+        thumbnailM: logo,
         title: 'Tên bài hát',
         artistsNames: 'artistsNames',
         duration: 0,

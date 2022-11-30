@@ -83,7 +83,7 @@ function Chart() {
         request.get('/chart/home').then((res) => {
             setIsLoading(false);
             setResult(res.data);
-            document.title = '#zingchart';
+            document.title = '#songchart';
         });
     }, []);
     if (isLoading) {
@@ -92,7 +92,7 @@ function Chart() {
         return (
             <div className={cx('container')}>
                 <div className={cx('header')}>
-                    <h1 className={cx('title')}>#zingchart</h1>
+                    <h1 className={cx('title')}>#songchart</h1>
                     {result.RTChart.sectionId !== playlistId && (
                         <button
                             className={cx('play-btn')}

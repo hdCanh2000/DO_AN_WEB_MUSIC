@@ -7,7 +7,7 @@ import { Provider } from 'react-redux';
 
 function App() {
     useEffect(() => {
-        document.title = 'Zing MP3 Clone';
+        document.title = 'Pro Music';
     });
     return (
         <Provider store={store}>
