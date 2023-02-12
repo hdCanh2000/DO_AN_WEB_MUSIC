@@ -23,7 +23,7 @@ function Home() {
     if (isLoading) {
         return <Loading />;
     } else if (isFail) {
-        return <h1>Bi Loi</h1>;
+        return <h1>Website bị lỗi, hãy quay lại sau...</h1>;
     } else {
         return (
             <div>

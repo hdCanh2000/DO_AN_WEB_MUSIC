@@ -1,5 +1,6 @@
 {
     "name": "pro-music",
+    "homepage": "https://promusic.click/",
     "version": "0.1.0",
     "private": true,
     "dependencies": {
